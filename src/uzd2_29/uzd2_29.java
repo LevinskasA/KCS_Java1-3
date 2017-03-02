@@ -30,22 +30,22 @@ public class uzd2_29 {
         // Valid option chosen. Calling it.
         switch (option) {
             case 1:
-                readUsersFile();
+                //readUsersFile();
                 break;
             case 2:
-                inputNewUser();
+                //inputNewUser();
                 break;
             case 3:
-                searchByName();
+                //searchByName();
                 break;
             case 4:
-                searchByFirstNameLetter();
+                //searchByFirstNameLetter();
                 break;
             case 5:
-                searchByLastNameLetter();
+                //searchByLastNameLetter();
                 break;
             case 6:
-                searchByOlderThan();
+                //searchByOlderThan();
                 break;
             default:
                 System.out.println("Something broke. Switch in startMenu.");

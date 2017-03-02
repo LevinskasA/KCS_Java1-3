@@ -25,5 +25,13 @@ public class Service {
         this.repairPrice = repairPrice;
     }
 
+    public float getPrice(){
+        return partPrice + repairPrice;
+    }
+
+    public String toFileFormat(){
+        return repairPrice + "," + partPrice;
+    }
+
 
 }

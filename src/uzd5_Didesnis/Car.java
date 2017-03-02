@@ -27,4 +27,8 @@ public class Car {
         this.carModel = carModel;
 
     }
+
+    public String toFileFormat() {
+        return year + "," + carModel;
+    }
 }

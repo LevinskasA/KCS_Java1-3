@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class ClientInfo {
     //temp
-    ClientInfo(){
+    ClientInfo() {
 
     }
     //temp
@@ -28,12 +28,12 @@ public class ClientInfo {
 
     ClientInfo(Car car) {
         this.car = car;
-        services = new LinkedList<>();
+        services = new LinkedList<Service>();
 
     }
 
 
-    public void addService (Service service){
+    public void addService(Service service) {
         services.add(service);
     }
 
